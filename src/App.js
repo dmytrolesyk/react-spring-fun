@@ -5,7 +5,11 @@ import './App.css';
 import Modal from './Modal';
 import Checkout from './Checkout';
 import Accordion from './Accordion';
-import Waypoints from './Waypoints';
+import Boxes from './Boxes-useChain';
+// import Boxes from './Boxes-useSprings';
+// import Boxes from './Boxes-useTrail';
+// import Gesture from './Gesture';
+// import Waypoints from './Waypoints';
 // import Nav from './Nav';
 // import Routes from './Routes';
 // import Toggle from './Toggle';
@@ -37,7 +41,9 @@ const App = () => {
           {/* <Routes /> */}
           <Modal />
           <Accordion />
-          <Waypoints />
+          {/* <Waypoints /> */}
+          {/* <Gesture /> */}
+          <Boxes />
           <Checkout isOpen={isNavOpen} />
         </main>
       </animated.div>
